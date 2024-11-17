@@ -106,12 +106,7 @@ function update() {
     context.fillText(score, 5, 45);
 
     if (gameOver) {
-        context.textAlign = "center";        // Center text horizontally
-        context.textBaseline = "middle";     // Center text vertically
-        context.font = "48px Arial";         // Set font size and style
-        context.fillText("GAME OVER1", 
-    canvas.width / 2, canvas.height / 2);
-        
+        context.fillText("GAME OVER, 5, 90);
     }
 }
 
