@@ -1,4 +1,4 @@
- let board;
+let board;
 let boardWidth = 360; // pixels wide and tall
 let boardHeight = 640;
 let context;
